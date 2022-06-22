@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to sap exim" />
+        <Header title="SAPEXIM" />
         <p>Website is under development</p>
       </main>
 
