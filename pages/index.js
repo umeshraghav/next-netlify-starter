@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="SAPEXIM" />
-        <p>Website is under development</p>
+        {/* <p>Website is under development</p> */}
       </main>
 
       <Footer />
