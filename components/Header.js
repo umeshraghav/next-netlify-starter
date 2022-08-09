@@ -45,7 +45,7 @@ export default function Header({ title, window }) {
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar component="nav" color="transparent">
+        <AppBar component="nav" color="transparent" elevation={1}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -93,6 +93,7 @@ export default function Header({ title, window }) {
           {drawer}
         </Drawer>
       </Box>
+      <Toolbar />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
-
+import Hero from "@components/Hero/Hero";
 export default function Home() {
   return (
     <div className="container">
@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="SAPEXIM" />
-        {/* <p>Website is under development</p> */}
+        <Hero />
       </main>
 
       <Footer />
