@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 import Hero from "@components/Hero/Hero";
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Head>
         <title>SAPEXIM | Electric Equipment Supplier in Delhi NCR India</title>
         <link rel="icon" href="/favicon.ico" />

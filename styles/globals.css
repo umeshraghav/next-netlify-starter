@@ -2,12 +2,20 @@ html,
 body {
   padding: 0;
   margin: 0;
-   }
+}
 
 * {
   box-sizing: border-box;
 }
 
- 
- 
- 
+.navbar-brand {
+  font-size: 36px !important;
+  font-weight: 700;
+}
+.welcome-text {
+  margin: auto;
+}
+.welcome {
+  display: flex;
+  justify-content: baseline;
+}
