@@ -1,6 +1,13 @@
 import * as React from "react";
 
-const navItems = ["Home", "About", "Services", "Contact", "7696269109"];
+const navItems = [
+  "Home",
+  "About",
+  "Services",
+  "Products",
+  "Contact",
+  "7696269109",
+];
 
 export default function Header({ title, window }) {
   return (
