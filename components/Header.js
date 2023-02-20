@@ -44,18 +44,6 @@ export default function Header({ title, window }) {
                 );
               })}
             </ul>
-
-            {/* <ul className="nav ">
-              {navItems.map((item) => {
-                return (
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
-                      {item}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul> */}
           </div>
         </div>
       </nav>

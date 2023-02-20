@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../public/bootstrap-themes.png";
+import heroImage from "../../public/hero.jpg";
 import Image from "next/image";
 
 function Hero() {
@@ -19,20 +19,19 @@ function Hero() {
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-3">
-              Responsive left-aligned hero with image
+              See everything, miss nothing - with our CCTV cameras
             </h1>
             <p className="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              leading supplier and service provider of top branded CCTV cameras
+              with installation and maintenance for CCTV systems, fire,
+              surveillance and security related services
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button
                 type="button"
                 className="btn btn-primary btn-lg px-4 me-md-2"
               >
-                Primary
+                Contact Now
               </button>
             </div>
           </div>
