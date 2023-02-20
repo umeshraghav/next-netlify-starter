@@ -1,52 +1,57 @@
 import * as React from "react";
-
-const navItems = [
-  "Home",
-  "About",
-  "Services",
-  "Products",
-  "Contact",
-  "7696269109",
-];
+import Script from "next/script";
+const navItems = ["Home", "About", "Services", "Products", "Contact"];
 
 export default function Header({ title, window }) {
+  const [isMobile, setIsMobile] = React.useState(false);
+  function handleClick() {
+    console.log("Hello");
+  }
   return (
-    <header className="container-fluid sticky-top bg-body-tertiary">
-      <nav className="navbar navbar-expand-lg   ">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="./">
-            SAPEXIM
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            className="collapse navbar-collapse nav justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav ml-auto  mb-3 mb-lg-0  d-flex ">
-              {navItems.map((item) => {
-                return (
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
-                      {item}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
+    <>
+      <nav>
+        <div className="nav-center">
+          <div className="nav-header">
+            <h4 className="logo">
+              SAP <span>EXIM</span>
+            </h4>
+            <button
+              type="button"
+              className="nav-toggle"
+              onClick={() => setIsMobile(!isMobile)}
+            >
+              <i className="fas fa-bars"></i>
+            </button>
           </div>
+          <ul className={isMobile ? "links show-links" : "links"}>
+            {navItems.map((item) => {
+              return (
+                <li className="nav-item" style={{ gap: "30px" }} key={item}>
+                  <a href={`#${item}`}>{item}</a>
+                </li>
+              );
+            })}
+            {/* <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">projects</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li> */}
+          </ul>
+          <a href="tel:+919310234436" className="links phone">
+            93102 34436
+          </a>
         </div>
       </nav>
-    </header>
+    </>
   );
 }
