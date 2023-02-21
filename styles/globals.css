@@ -197,6 +197,9 @@ nav {
   line-height: 2;
   font-weight: 400;
 }
+.stat-text {
+  color: var(--primary-500) !important;
+}
 @media screen and (min-width: 800px) {
   .nav-toggle {
     display: none;
