@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import dark1 from "../public/01-dark.svg";
-import dark2 from "../public/02-dark.svg";
+
 function Clients() {
   return (
     <div id="clients">
