@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div id="Services">
+    <div id="Services" className="stats">
       <section className="container py-5">
         <h2 className="h1 text-center">Our services</h2>
         <p className="text-center pb-4 mb-2 mb-lg-3">
