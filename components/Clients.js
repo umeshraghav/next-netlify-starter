@@ -10,6 +10,11 @@ function Clients() {
             More than 2,000 clients using Around to analyze data
           </p>
         </div>
+        <div className="row">
+          <div className="col">
+            <div></div>
+          </div>
+        </div>
       </section>
     </div>
   );
