@@ -20,8 +20,7 @@ export default function Home() {
       <main>
         <Header title="SAPEXIM" />
         <Hero />
-        <Services />
-        <Stats />
+       
 
         <Clients />
       </main>
