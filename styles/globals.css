@@ -546,6 +546,7 @@
   padding: 0;
   text-align: left;
   color: var(--secondary);
+  text-decoration: none;
   font-weight: normal;
   text-transform: capitalize;
   transition: .3s;
