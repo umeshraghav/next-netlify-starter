@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Hero from "@components/Hero/Hero";
+import Services from "@components/Services/Services";
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
       <main>
         <Header title="SAPEXIM" />
         <Hero />
+        <Services/>
       </main>
     </>
   );
