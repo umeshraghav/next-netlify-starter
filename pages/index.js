@@ -3,6 +3,8 @@ import Header from "@components/Header";
 import Hero from "@components/Hero/Hero";
 import Services from "@components/Services/Services";
 import Footer from "@components/Footer";
+import About from "@components/About";
+import WhyUs from "@components/WhyUs";
 export default function Home() {
   return (
     <>
@@ -29,7 +31,9 @@ export default function Home() {
       <main>
         <Header title="SAPEXIM" />
         <Hero />
+        <About/>
         <Services/>
+        <WhyUs/>
         <Footer/>
       </main>
     </>
